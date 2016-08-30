@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="de.mysterycode.wcf.optionexport" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
+	<packageinformation>
+		<packagename>WoltLab Suite Core: Option Import and Export</packagename>
+		<packagedescription><![CDATA[Import and export options directly from your ACP. This is no backup-feature!]]></packagedescription>
+		<version>1.0.0</version>
+		<date>2016-08-30</date>
+	</packageinformation>
+
+	<authorinformation>
+		<author><![CDATA[WoltLab, MysteryCode]]></author>
+		<authorurl><![CDATA[https://github.com/MysteryCode/de.mysterycode.wcf.optionexport]]></authorurl>
+	</authorinformation>
+
+	<requiredpackages>
+		<requiredpackage minversion="3.0.0 Alpha 1">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+
+	<excludedpackages>
+		<excludedpackage version="3.1.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+	</excludedpackages>
+
+	<instructions type="install">
+		<instruction type="language">language/*.xml</instruction>
+
+		<!-- files -->
+		<instruction type="file" />
+		<instruction type="acpTemplate" />
+
+		<!-- xml -->
+		<instruction type="acpMenu" />
+	</instructions>
+</package>
