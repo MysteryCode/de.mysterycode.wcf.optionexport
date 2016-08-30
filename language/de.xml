@@ -3,12 +3,12 @@
   <category name="wcf.acp.option">
     <item name="wcf.acp.option.export"><![CDATA[Optionen sichern]]></item>
     <item name="wcf.acp.option.export.download"><![CDATA[Sicherung der Optionen herunterladen]]></item>
-    <item name="wcf.acp.option.export.download.description"><![CDATA[Laden Sie eine Sicherung der Optionen auf Ihren lokalen Rechner herunter.]]></item>
+    <item name="wcf.acp.option.export.download.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Lade{else}Laden Sie{/if} eine Sicherung der Optionen auf {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}Ihren{/if} lokalen Rechner herunter.]]></item>
     <item name="wcf.acp.option.import"><![CDATA[Optionen importieren]]></item>
     <item name="wcf.acp.option.import.error.importFailed"><![CDATA[Die Optionen konnten nicht erfolgreich importiert werden.]]></item>
     <item name="wcf.acp.option.import.success"><![CDATA[Die Optionen wurden erfolgreich importiert.]]></item>
     <item name="wcf.acp.option.import.upload"><![CDATA[Sicherung der Optionen vom lokalen Computer hochladen]]></item>
-    <item name="wcf.acp.option.import.upload.description"><![CDATA[Wählen Sie eine Sicherung der Optionen von Ihrem lokalen Rechner aus.]]></item>
+    <item name="wcf.acp.option.import.upload.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Wähle{else}Wählen Sie{/if} eine Sicherung der Optionen von {if LANGUAGE_USE_INFORMAL_VARIANT}deinem{else}Ihrem{/if} lokalen Rechner aus.]]></item>
     <item name="wcf.acp.option.importAndExport"><![CDATA[Optionen sichern &amp; wiederherstellen]]></item>
   </category>
 </language>
